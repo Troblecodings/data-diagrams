@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>280</y>
+      <w>200</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Material
+--
+int=&gt;materialsize = 20
+vec4=&gt;color
+int=&gt;textureId</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>630</x>
+      <y>280</y>
+      <w>220</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Texture [tgr]
+--
+int=&gt;textureSize
+byte[textureSize]=&gt;pngData</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>900</x>
+      <y>280</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Actor [tgr]
+--
+int=&gt;vertexDataLength
+mat4=&gt;transformMatrix
+int=&gt;animationId = 0
+int=&gt;transformId
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

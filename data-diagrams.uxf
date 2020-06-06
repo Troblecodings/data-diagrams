@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>5</zoom_level>
+  <zoom_level>6</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>200</x>
-      <y>265</y>
-      <w>100</w>
-      <h>40</h>
+      <x>114</x>
+      <y>462</y>
+      <w>120</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>Material [tgr]
 --
@@ -19,10 +19,10 @@ int =&gt; textureId</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>325</x>
-      <y>265</y>
-      <w>110</w>
-      <h>35</h>
+      <x>264</x>
+      <y>462</y>
+      <w>132</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Texture [tgr]
 --
@@ -33,10 +33,10 @@ byte[textureSize] =&gt; pngData</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>510</x>
-      <y>260</y>
-      <w>140</w>
-      <h>115</h>
+      <x>486</x>
+      <y>456</y>
+      <w>168</w>
+      <h>138</h>
     </coordinates>
     <panel_attributes>Actor [tgr]
 --
@@ -57,10 +57,10 @@ byte[vertexDataLength] =&gt; vertices</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>200</x>
-      <y>510</y>
-      <w>90</w>
-      <h>50</h>
+      <x>114</x>
+      <y>756</y>
+      <w>108</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>type=decision
 passed to cmdbuf</panel_attributes>
@@ -69,10 +69,10 @@ passed to cmdbuf</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
-      <y>300</y>
-      <w>15</w>
-      <h>35</h>
+      <x>162</x>
+      <y>504</y>
+      <w>18</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
@@ -80,10 +80,10 @@ passed to cmdbuf</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>200</x>
-      <y>630</y>
-      <w>90</w>
-      <h>45</h>
+      <x>114</x>
+      <y>900</y>
+      <w>108</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>type=decision
 passed to GPU
@@ -93,10 +93,10 @@ as pushconst</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
-      <y>555</y>
-      <w>15</w>
-      <h>85</h>
+      <x>162</x>
+      <y>810</y>
+      <w>18</w>
+      <h>102</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;150.0;10.0;10.0</additional_attributes>
@@ -104,10 +104,10 @@ as pushconst</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>295</y>
-      <w>15</w>
-      <h>40</h>
+      <x>318</x>
+      <y>498</y>
+      <w>18</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
@@ -115,10 +115,10 @@ as pushconst</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>330</x>
-      <y>325</y>
-      <w>90</w>
-      <h>35</h>
+      <x>270</x>
+      <y>534</y>
+      <w>108</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>type=decision
 passed to stbi</panel_attributes>
@@ -127,10 +127,10 @@ passed to stbi</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>355</y>
-      <w>15</w>
-      <h>35</h>
+      <x>318</x>
+      <y>570</y>
+      <w>18</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
@@ -138,10 +138,10 @@ passed to stbi</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
-      <y>490</y>
-      <w>15</w>
-      <h>15</h>
+      <x>306</x>
+      <y>732</y>
+      <w>18</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;10.0</additional_attributes>
@@ -149,10 +149,10 @@ passed to stbi</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>320</x>
-      <y>450</y>
-      <w>110</w>
-      <h>45</h>
+      <x>258</x>
+      <y>684</y>
+      <w>132</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>type=decision
 passed to texture creation</panel_attributes>
@@ -161,10 +161,10 @@ passed to texture creation</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>305</x>
-      <y>380</y>
-      <w>150</w>
-      <h>55</h>
+      <x>240</x>
+      <y>600</y>
+      <w>180</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>Texture [stbi]
 --
@@ -177,10 +177,10 @@ byte[xSize * ySize * channel] =&gt; bitmapData</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>430</y>
-      <w>15</w>
-      <h>30</h>
+      <x>318</x>
+      <y>660</y>
+      <w>18</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -188,10 +188,10 @@ byte[xSize * ySize * channel] =&gt; bitmapData</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>490</y>
-      <w>15</w>
-      <h>150</h>
+      <x>318</x>
+      <y>732</y>
+      <w>18</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;280.0;10.0;10.0</additional_attributes>
@@ -199,10 +199,10 @@ byte[xSize * ySize * channel] =&gt; bitmapData</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>325</x>
-      <y>630</y>
-      <w>100</w>
-      <h>45</h>
+      <x>264</x>
+      <y>900</y>
+      <w>120</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>type=decision
 passed to GPU
@@ -212,10 +212,10 @@ as buffer</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>200</x>
-      <y>325</y>
-      <w>100</w>
-      <h>35</h>
+      <x>114</x>
+      <y>534</y>
+      <w>120</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Material [read]
 --
@@ -226,10 +226,10 @@ int =&gt; textureId</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
-      <y>355</y>
-      <w>15</w>
-      <h>165</h>
+      <x>162</x>
+      <y>570</y>
+      <w>18</w>
+      <h>198</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;310.0;10.0;10.0</additional_attributes>
@@ -237,10 +237,10 @@ int =&gt; textureId</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>200</x>
-      <y>65</y>
-      <w>100</w>
-      <h>40</h>
+      <x>114</x>
+      <y>222</y>
+      <w>120</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>Material [user]
 --
@@ -251,10 +251,10 @@ string =&gt; textureName
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
-      <y>100</y>
-      <w>15</w>
-      <h>35</h>
+      <x>162</x>
+      <y>264</y>
+      <w>18</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
@@ -262,10 +262,10 @@ string =&gt; textureName
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>200</x>
-      <y>125</y>
-      <w>90</w>
-      <h>45</h>
+      <x>114</x>
+      <y>294</y>
+      <w>108</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>type=decision
 passed to fs
@@ -275,10 +275,10 @@ as json</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>110</x>
-      <y>185</y>
-      <w>90</w>
-      <h>40</h>
+      <x>6</x>
+      <y>366</y>
+      <w>108</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>type=decision
 on map make</panel_attributes>
@@ -287,10 +287,10 @@ on map make</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>195</x>
-      <y>200</y>
-      <w>60</w>
-      <h>75</h>
+      <x>108</x>
+      <y>384</y>
+      <w>72</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>100.0;130.0;100.0;10.0;10.0;10.0</additional_attributes>
@@ -298,10 +298,10 @@ on map make</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
-      <y>200</y>
-      <w>145</w>
-      <h>75</h>
+      <x>162</x>
+      <y>384</y>
+      <w>174</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>270.0;130.0;270.0;10.0;10.0;10.0</additional_attributes>
@@ -309,10 +309,10 @@ on map make</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>200</y>
-      <w>215</w>
-      <h>70</h>
+      <x>318</x>
+      <y>384</y>
+      <w>258</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>410.0;120.0;410.0;10.0;10.0;10.0</additional_attributes>
@@ -320,10 +320,10 @@ on map make</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
-      <y>165</y>
-      <w>15</w>
-      <h>50</h>
+      <x>162</x>
+      <y>342</y>
+      <w>18</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
@@ -331,10 +331,10 @@ on map make</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>165</y>
-      <w>15</w>
-      <h>50</h>
+      <x>318</x>
+      <y>342</y>
+      <w>18</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
@@ -342,10 +342,10 @@ on map make</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>330</x>
-      <y>125</y>
-      <w>90</w>
-      <h>45</h>
+      <x>270</x>
+      <y>294</y>
+      <w>108</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>type=decision
 passed to fs
@@ -355,10 +355,10 @@ as tgx</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>330</x>
-      <y>70</y>
-      <w>100</w>
-      <h>25</h>
+      <x>270</x>
+      <y>228</y>
+      <w>120</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Texture [user]
 --
@@ -368,10 +368,10 @@ string =&gt; texturePath</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>90</y>
-      <w>15</w>
-      <h>45</h>
+      <x>318</x>
+      <y>252</y>
+      <w>18</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
@@ -379,10 +379,10 @@ string =&gt; texturePath</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>530</x>
-      <y>130</y>
-      <w>90</w>
-      <h>45</h>
+      <x>510</x>
+      <y>300</y>
+      <w>108</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>type=decision
 passed to fs
@@ -392,10 +392,10 @@ as json</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>570</x>
-      <y>170</y>
-      <w>15</w>
-      <h>45</h>
+      <x>558</x>
+      <y>348</y>
+      <w>18</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
@@ -403,10 +403,10 @@ as json</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>570</x>
-      <y>90</y>
-      <w>15</w>
-      <h>50</h>
+      <x>558</x>
+      <y>252</y>
+      <w>18</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
@@ -414,10 +414,10 @@ as json</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>530</x>
-      <y>60</y>
-      <w>100</w>
-      <h>35</h>
+      <x>510</x>
+      <y>216</y>
+      <w>120</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Actor [user]
 --
@@ -428,10 +428,10 @@ string =&gt; materialName</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>105</x>
-      <y>240</y>
-      <w>1430</w>
-      <h>335</h>
+      <x>0</x>
+      <y>432</y>
+      <w>1716</w>
+      <h>402</h>
     </coordinates>
     <panel_attributes>TGEngine
 valign=top
@@ -441,10 +441,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>105</x>
-      <y>585</y>
-      <w>1430</w>
-      <h>100</h>
+      <x>0</x>
+      <y>846</y>
+      <w>1716</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>Vulkan
 valign=top
@@ -454,10 +454,10 @@ bg=red</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>105</x>
-      <y>40</y>
-      <w>1430</w>
-      <h>190</h>
+      <x>0</x>
+      <y>192</y>
+      <w>1716</w>
+      <h>228</h>
     </coordinates>
     <panel_attributes>ShaderTool
 valign=top
@@ -467,10 +467,10 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>485</x>
-      <y>370</y>
-      <w>50</w>
-      <h>85</h>
+      <x>456</x>
+      <y>588</y>
+      <w>60</w>
+      <h>102</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;150.0;80.0;10.0</additional_attributes>
@@ -478,10 +478,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>445</x>
-      <y>445</y>
-      <w>90</w>
-      <h>40</h>
+      <x>408</x>
+      <y>678</y>
+      <w>108</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>ActorTransform [read]
 --
@@ -494,10 +494,10 @@ layer=1</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>440</x>
-      <y>630</y>
-      <w>100</w>
-      <h>45</h>
+      <x>402</x>
+      <y>900</y>
+      <w>120</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>type=decision
 passed to GPU
@@ -508,10 +508,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>485</x>
-      <y>480</y>
-      <w>15</w>
-      <h>160</h>
+      <x>456</x>
+      <y>720</y>
+      <w>18</w>
+      <h>192</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;300.0;10.0;10.0</additional_attributes>
@@ -519,10 +519,10 @@ layer=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>540</x>
-      <y>445</y>
-      <w>120</w>
-      <h>40</h>
+      <x>522</x>
+      <y>678</y>
+      <w>144</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>ActorTransform [read]
 --
@@ -535,10 +535,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>575</x>
-      <y>370</y>
-      <w>15</w>
-      <h>85</h>
+      <x>564</x>
+      <y>588</y>
+      <w>18</w>
+      <h>102</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;150.0;10.0;10.0</additional_attributes>
@@ -546,10 +546,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>285</x>
-      <y>480</y>
-      <w>320</w>
-      <h>65</h>
+      <x>216</x>
+      <y>720</y>
+      <w>384</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;110.0;620.0;110.0;620.0;10.0</additional_attributes>
@@ -557,10 +557,10 @@ layer=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>665</x>
-      <y>445</y>
-      <w>120</w>
-      <h>50</h>
+      <x>672</x>
+      <y>678</y>
+      <w>144</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>ActorTransform [read]
 --
@@ -574,10 +574,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>615</x>
-      <y>370</y>
-      <w>85</w>
-      <h>85</h>
+      <x>612</x>
+      <y>588</y>
+      <w>102</w>
+      <h>102</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>150.0;150.0;10.0;10.0</additional_attributes>
@@ -585,10 +585,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>490</y>
-      <w>135</w>
-      <h>55</h>
+      <x>582</x>
+      <y>732</y>
+      <w>162</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;90.0;250.0;90.0;250.0;10.0</additional_attributes>
@@ -596,10 +596,10 @@ layer=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>790</x>
-      <y>445</y>
-      <w>120</w>
-      <h>35</h>
+      <x>822</x>
+      <y>678</y>
+      <w>144</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>ActorTransform [read]
 --
@@ -611,10 +611,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>710</x>
-      <y>475</y>
-      <w>150</w>
-      <h>70</h>
+      <x>726</x>
+      <y>714</y>
+      <w>180</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;120.0;280.0;120.0;280.0;10.0</additional_attributes>
@@ -622,10 +622,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>645</x>
-      <y>310</y>
-      <w>190</w>
-      <h>145</h>
+      <x>648</x>
+      <y>516</y>
+      <w>228</w>
+      <h>174</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>360.0;270.0;10.0;10.0</additional_attributes>
@@ -633,10 +633,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>645</x>
-      <y>280</y>
-      <w>280</w>
-      <h>350</h>
+      <x>648</x>
+      <y>480</y>
+      <w>336</w>
+      <h>420</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 </panel_attributes>
@@ -645,10 +645,10 @@ layer=1</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>865</x>
-      <y>620</y>
-      <w>100</w>
-      <h>45</h>
+      <x>912</x>
+      <y>888</y>
+      <w>120</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>type=decision
 passed to GPU
@@ -659,10 +659,10 @@ layer=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1030</x>
-      <y>55</y>
-      <w>100</w>
-      <h>65</h>
+      <x>1110</x>
+      <y>210</y>
+      <w>120</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>Instance [user]
 --
@@ -670,29 +670,29 @@ string =&gt; actorName
 string =&gt; instanceName
 int =&gt; x
 int =&gt; y
-int =&gt; scaleX
-int =&gt; scaleY
+[int =&gt; scaleX]
+[int =&gt; scaleY]
 layer=1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>115</y>
-      <w>15</w>
-      <h>30</h>
+      <x>1158</x>
+      <y>282</y>
+      <w>18</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1030</x>
-      <y>135</y>
-      <w>90</w>
-      <h>45</h>
+      <x>1110</x>
+      <y>312</y>
+      <w>108</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>type=decision
 passed to fs
@@ -703,21 +703,21 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>175</y>
-      <w>15</w>
-      <h>40</h>
+      <x>1158</x>
+      <y>360</y>
+      <w>18</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1005</x>
-      <y>310</y>
-      <w>140</w>
-      <h>50</h>
+      <x>1080</x>
+      <y>516</y>
+      <w>168</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>Instance [tgr]
 --
@@ -731,10 +731,10 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>570</x>
-      <y>200</y>
-      <w>515</w>
-      <h>120</h>
+      <x>558</x>
+      <y>384</y>
+      <w>618</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>1010.0;220.0;1010.0;10.0;10.0;10.0</additional_attributes>
@@ -742,10 +742,10 @@ layer=1</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>1025</x>
-      <y>620</y>
-      <w>100</w>
-      <h>45</h>
+      <x>1104</x>
+      <y>888</y>
+      <w>120</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>type=decision
 passed to GPU
@@ -756,12 +756,214 @@ layer=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1070</x>
-      <y>355</y>
-      <w>15</w>
-      <h>275</h>
+      <x>1158</x>
+      <y>570</y>
+      <w>18</w>
+      <h>330</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;530.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1302</x>
+      <y>210</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Font [user]
+--
+string =&gt; fontName
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1356</x>
+      <y>240</y>
+      <w>18</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1308</x>
+      <y>306</y>
+      <w>108</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>type=decision
+passed to fs
+as ttf
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1356</x>
+      <y>354</y>
+      <w>18</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1158</x>
+      <y>384</y>
+      <w>216</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>340.0;220.0;340.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1302</x>
+      <y>516</y>
+      <w>120</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>Font [tgr]
+--
+int =&gt; ttfSize
+byte[ttfSize] =&gt; ttfData
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1308</x>
+      <y>606</y>
+      <w>108</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>type=decision
+passed to stbtt
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1296</x>
+      <y>624</y>
+      <w>24</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;100.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1356</x>
+      <y>552</y>
+      <w>18</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1410</x>
+      <y>624</y>
+      <w>66</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1242</x>
+      <y>684</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Font [stbtt]
+--
+chardata[128] =&gt; ttfData
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1482</x>
+      <y>738</y>
+      <w>18</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1404</x>
+      <y>678</y>
+      <w>180</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>Texture [stbtt]
+--
+int =&gt; xSize
+int =&gt; ySize
+int =&gt; channel
+byte[xSize * ySize * channel] =&gt; bitmapData
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1422</x>
+      <y>768</y>
+      <w>132</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>type=decision
+passed to texture creation
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1428</x>
+      <y>888</y>
+      <w>120</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>type=decision
+passed to GPU
+as buffer
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1482</x>
+      <y>816</y>
+      <w>18</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>

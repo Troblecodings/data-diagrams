@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Criticality Level</title>
+        <style>
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        
+        
+        
+    </head>
+    <body class="vscode-light">
+        <h1 id="criticality-level">Criticality Level</h1>
+<h2 id="description">Description</h2>
+<p>This level system should give an easy overlook on how performance critical a system is.
+It consists of 4 Levels:</p>
+<h2 id="level-0">Level 0</h2>
+<p>Systems with this level are not executed often and is not being depended on by just a view other systems. Here the could should be as clear as possible without any regard on performance.</p>
+<h3 id="restrictions">Restrictions</h3>
+<p>None</p>
+<h3 id="encouragement">Encouragement</h3>
+<p>It is encouraged to use a suitable high level language (such as python) to cut down development time. This code should be as clear as possible. It is encouraged to use abstractions on this level of criticality.</p>
+<h3 id="examples">Examples</h3>
+<p>An example would be a dependency script, which is only executed to setup the environment or to update it.</p>
+<h2 id="level-1">Level 1</h2>
+<p>Level 1 Systems are executed occasionally and are not in critical paths.</p>
+<h3 id="restrictions-1">Restrictions</h3>
+<p>This should not be written in a high level language. High abstractions such as code generation should be avoided.</p>
+<h3 id="encouragement-1">Encouragement</h3>
+<p>This code should be as clear as possible. It is encouraged to use abstractions on this level of criticality. Lambdas and templates are encouraged to express clear intent.</p>
+<h3 id="examples-1">Examples</h3>
+<p>An example would be a Button press on a UI.</p>
+<h2 id="level-2">Level 2</h2>
+<p>Level 2 Systems are performance dependent. Hence they should not bottleneck any surrounding systems or user interaction. Those systems are normally being depended on by other systems on regular basis.</p>
+<h3 id="restrictions-2">Restrictions</h3>
+<p>Higher abstractions such as OOP or Code generation are disallowed. Cache unfriendly container are discouraged on this level. template usage and lambdas are allowed but should be used carefully.</p>
+<h3 id="encouraged">Encouraged</h3>
+<p>Boilerplate should still be automated with regard to performance. Cache friendly container usage. Pre-Reservation of memory and fast general designs. Makros are encouraged.</p>
+<h3 id="example">Example</h3>
+<p>A Resource system, it need to be executed often if a designer wants to view his changes.</p>
+<h2 id="level-3">Level 3</h2>
+<h3 id="restrictions-3">Restrictions</h3>
+<p>Higher abstractions such as OOP or Code generation are disallowed. Cache unfriendly container are disallowed. Lambdas are disallowed. Template usage is discouraged.</p>
+<h3 id="encouraged-1">Encouraged</h3>
+<p>Low-Level/Low-Overhead design should be used. Cache friendly container usage. Pre-Reservation of memory and fast general designs.</p>
+<h3 id="examples-2">Examples</h3>
+<p>The realtime user input system or the render system.</p>
+
+    </body>
+    </html>

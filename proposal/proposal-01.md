@@ -1,5 +1,7 @@
 # Proposal 01.2 - Rework of the engine tool
 
+[Criticality-Level: Level 2](https://troblecodings.github.io/data-diagrams/criticality-level.html)
+
 ## Current situation
 
 ![proposal-01-2](proposal-01-2.png)

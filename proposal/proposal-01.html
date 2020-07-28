@@ -2,7 +2,7 @@
     <html>
     <head>
         <meta charset="UTF-8">
-        <title>Proposal 01 - Rework of the engine tool</title>
+        <title>Proposal 01.2 - Rework of the engine tool</title>
         <style>
 </style>
         
@@ -23,7 +23,7 @@
         
     </head>
     <body class="vscode-light">
-        <h1 id="proposal-01---rework-of-the-engine-tool">Proposal 01 - Rework of the engine tool</h1>
+        <h1 id="proposal-012---rework-of-the-engine-tool">Proposal 01.2 - Rework of the engine tool</h1>
 <h2 id="current-situation">Current situation</h2>
 <p><img src="proposal-01-2.png" alt="proposal-01-2"></p>
 <h2 id="problem">Problem</h2>
@@ -39,7 +39,7 @@
 <p>The solution would be to rework the entire system to add a layer of abstraction within the engine tool. The best case would be to make a static library out of the core systems. The second system would then be build on top of this library to help the optimizer to optimize away anything unnecessary. The would reduce or remove problem 2, 4 and 5 entirely. If we now incorporate the shader and pipe systems into the resource system it would remove all build dependencies to the engine it self.</p>
 <h3 id="proposal">Proposal</h3>
 <p><img src="proposal-01-1.png" alt="proposal-01-1"></p>
-<p>The core systems should consist of namespaces and the according methods in the namespace</p>
+<p>The core systems should consist of namespaces and the according methods in the namespace. Error handling should be done by return codes.</p>
 <p><img src="proposal-01-3.png" alt="proposal-01-3"></p>
 <h2 id="pros-and-cons">Pros and Cons</h2>
 <h3 id="pros">Pros</h3>

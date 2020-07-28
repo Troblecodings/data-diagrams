@@ -1,4 +1,4 @@
-# Proposal 01 - Rework of the engine tool
+# Proposal 01.2 - Rework of the engine tool
 
 ## Current situation
 
@@ -22,7 +22,7 @@ The solution would be to rework the entire system to add a layer of abstraction 
 
 ![proposal-01-1](proposal-01-1.png)
 
-The core systems should consist of namespaces and the according methods in the namespace
+The core systems should consist of namespaces and the according methods in the namespace. Error handling should be done by return codes.
 
 ![proposal-01-3](proposal-01-3.png)
 

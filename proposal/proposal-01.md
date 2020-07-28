@@ -46,8 +46,8 @@ The core systems should consist of namespaces and the according methods in the n
 
 ## Conclusion
 
-I think that the complete rewrite of the system is justified by the benefits we have from changing the language. The library change is on the other hand a minor probably. It could be replaced by niels lohman's json C++ API which we already use because of the communication problems seen in 5 which also introduces a lot of redundancy.
+I think that the complete rewrite of the system is justified by the benefits we have from changing the language. The library change, on the other hand, is a minor problem. It could be replaced by niels lohman's json C++ API which we already use because of the communication problems seen in 5. Hence it introduced a lot of redundancy.
 
 ## Recommendations
 
-The usage of templates and macros is encouraged to further remove redundancies.
+The usage of templates and macros is encouraged to further remove redundancy.

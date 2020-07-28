@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>14</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>504</x>
+      <y>392</y>
+      <w>364</w>
+      <h>196</h>
+    </coordinates>
+    <panel_attributes>Material
+--
+--
++add(name: char*)
++add(name: std::string&amp;)
++add(name: char*, color: int)
++add(name: std::string&amp;, color: int)
++remove(name: char*)
++remove(name: std::string&amp;)</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

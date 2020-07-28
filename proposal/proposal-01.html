@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Proposal 01 - Rework of the engine tool</title>
+        <style>
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        
+        
+        
+    </head>
+    <body class="vscode-light">
+        <h1 id="proposal-01---rework-of-the-engine-tool">Proposal 01 - Rework of the engine tool</h1>
+<h2 id="current-situation">Current situation</h2>
+<p><img src="file:///d:\Projects\data-diagrams\proposal\proposal-01-2.png" alt="proposal-01-2"></p>
+<h2 id="problem">Problem</h2>
+<p>The engine tool (formally known as ShaderTool) in its current state has several disadvantages</p>
+<ol>
+<li>The Shader and pipe system uses code generation which adds a lot of abstraction. It generates unnecessary code. It is inflexible and not expandable. On top of that it creates additional dependencies.</li>
+<li>It is slow and tedious because the interface works over strings which is a result of the command line infrastructure.</li>
+<li>We need to write a lot of redundant code.</li>
+<li>We need a lot of redundant artifacts</li>
+<li>The current process API of C++ does not allow for bidirektional communication between the engine tool and the editor itself.</li>
+</ol>
+<h2 id="solution">Solution</h2>
+<p>The solution would be to rework the entire system to add a layer of abstraction within the engine tool. The best case would be to make a static library out of the core systems. The second system would then be build on top of this library to help the optimizer to optimize away anything unnecessary. The would reduce or remove problem 2, 4 and 5 entirely. If we now incorporate the shader and pipe systems into the resource system it would remove all build dependencies to the engine it self.</p>
+<h3 id="proposal">Proposal</h3>
+<p><img src="file:///d:\Projects\data-diagrams\proposal\proposal-01-1.png" alt="proposal-01-1"></p>
+<p>The core systems should consist of namespaces and the according methods in the namespace</p>
+<p><img src="file:///d:\Projects\data-diagrams\proposal\proposal-01-3.png" alt="proposal-01-3"></p>
+<h2 id="pros-and-cons">Pros and Cons</h2>
+<h3 id="pros">Pros</h3>
+<ul>
+<li>Removal of unnecessary dependencies</li>
+<li>Allows for bidirektional communication</li>
+<li>Hence it removes redundant code</li>
+<li>Adds better expandability</li>
+<li>Better for the optimizer</li>
+<li>Removes a lot of abstraction</li>
+<li>Removes a lot of complexity</li>
+</ul>
+<h3 id="cons">Cons</h3>
+<ul>
+<li>Would need a change from C# to C++ as language</li>
+<li>This would render <em>all</em> of the current code unusable</li>
+<li>We would need to change the library from NewtonSoft.Json</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>I think that the complete rewrite of the system is justified by the benefits we have from changing the language. The library change is on the other hand a minor probably. It could be replaced by niels lohman's json C++ API which we already use because of the communication problems seen in 5 which also introduces a lot of redundancy.</p>
+<h2 id="recommendations">Recommendations</h2>
+<p>The usage of templates and macros is encouraged to further remove redundancies.</p>
+
+    </body>
+    </html>

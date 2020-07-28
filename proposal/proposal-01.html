@@ -25,7 +25,7 @@
     <body class="vscode-light">
         <h1 id="proposal-01---rework-of-the-engine-tool">Proposal 01 - Rework of the engine tool</h1>
 <h2 id="current-situation">Current situation</h2>
-<p><img src="proposal-01-2.png" alt="proposal-01-2"></p>
+<p><img src="file:///d:\Projects\data-diagrams\proposal\proposal-01-2.png" alt="proposal-01-2"></p>
 <h2 id="problem">Problem</h2>
 <p>The engine tool (formally known as ShaderTool) in its current state has several disadvantages</p>
 <ol>
@@ -38,9 +38,9 @@
 <h2 id="solution">Solution</h2>
 <p>The solution would be to rework the entire system to add a layer of abstraction within the engine tool. The best case would be to make a static library out of the core systems. The second system would then be build on top of this library to help the optimizer to optimize away anything unnecessary. The would reduce or remove problem 2, 4 and 5 entirely. If we now incorporate the shader and pipe systems into the resource system it would remove all build dependencies to the engine it self.</p>
 <h3 id="proposal">Proposal</h3>
-<p><img src="proposal-01-1.png" alt="proposal-01-1"></p>
+<p><img src="file:///d:\Projects\data-diagrams\proposal\proposal-01-1.png" alt="proposal-01-1"></p>
 <p>The core systems should consist of namespaces and the according methods in the namespace</p>
-<p><img src="proposal-01-3.png" alt="proposal-01-3"></p>
+<p><img src="file:///d:\Projects\data-diagrams\proposal\proposal-01-3.png" alt="proposal-01-3"></p>
 <h2 id="pros-and-cons">Pros and Cons</h2>
 <h3 id="pros">Pros</h3>
 <ul>
@@ -59,9 +59,9 @@
 <li>We would need to change the library from NewtonSoft.Json</li>
 </ul>
 <h2 id="conclusion">Conclusion</h2>
-<p>I think that the complete rewrite of the system is justified by the benefits we have from changing the language. The library change is on the other hand a minor probably. It could be replaced by niels lohman's json C++ API which we already use because of the communication problems seen in 5 which also introduces a lot of redundancy.</p>
+<p>I think that the complete rewrite of the system is justified by the benefits we have from changing the language. The library change, on the other hand, is a minor problem. It could be replaced by niels lohman's json C++ API which we already use because of the communication problems seen in 5. Hence it introduced a lot of redundancy.</p>
 <h2 id="recommendations">Recommendations</h2>
-<p>The usage of templates and macros is encouraged to further remove redundancies.</p>
+<p>The usage of templates and macros is encouraged to further remove redundancy.</p>
 
     </body>
     </html>

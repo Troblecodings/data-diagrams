@@ -4,7 +4,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>390</x>
+      <x>405</x>
       <y>480</y>
       <w>375</w>
       <h>135</h>
@@ -20,7 +20,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>390</x>
+      <x>405</x>
       <y>630</y>
       <w>360</w>
       <h>135</h>
@@ -36,7 +36,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>390</x>
+      <x>405</x>
       <y>1005</y>
       <w>585</w>
       <h>150</h>
@@ -53,7 +53,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>390</x>
+      <x>405</x>
       <y>780</y>
       <w>600</w>
       <h>210</h>
@@ -72,7 +72,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>390</x>
+      <x>405</x>
       <y>0</y>
       <w>300</w>
       <h>195</h>
@@ -90,7 +90,7 @@ GENERAL</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>390</x>
+      <x>405</x>
       <y>210</y>
       <w>300</w>
       <h>120</h>
@@ -104,7 +104,7 @@ FONT</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>390</x>
+      <x>405</x>
       <y>345</y>
       <w>450</w>
       <h>120</h>
@@ -114,6 +114,23 @@ FONT</panel_attributes>
 --
 +getResource(path: string, name: string): path
 +collect(path: string, lambda): string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>405</x>
+      <y>1170</y>
+      <w>585</w>
+      <h>165</h>
+    </coordinates>
+    <panel_attributes>Material
+--
+--
++add(name:string, texture:string ,color:int):Result
++change(name:string, property:string ,value):Result
++list():string
++remove(name:string):Result</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

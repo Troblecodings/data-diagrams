@@ -5,40 +5,39 @@
     <id>UMLClass</id>
     <coordinates>
       <x>390</x>
-      <y>540</y>
+      <y>480</y>
       <w>375</w>
-      <h>150</h>
+      <h>135</h>
     </coordinates>
     <panel_attributes>Texture
 --
 --
-+add(paths: string, count: int): Result
 +add(path: string): Result
 +remove(name: string): Result
-+list(output: string): Result</panel_attributes>
++list(): string</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>390</x>
-      <y>705</y>
+      <y>630</y>
       <w>360</w>
       <h>135</h>
     </coordinates>
     <panel_attributes>Font
 --
 --
-+add(paths: string, count: int): Result
++add(path: string): Result
 +remove(name: string): Result
-+list(output: string): Result</panel_attributes>
++list(): string</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>390</x>
-      <y>1080</y>
+      <y>1005</y>
       <w>480</w>
       <h>150</h>
     </coordinates>
@@ -55,7 +54,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>390</x>
-      <y>855</y>
+      <y>780</y>
       <w>600</w>
       <h>210</h>
     </coordinates>
@@ -94,7 +93,7 @@ GENERAL</panel_attributes>
       <x>390</x>
       <y>210</y>
       <w>300</w>
-      <h>195</h>
+      <h>120</h>
     </coordinates>
     <panel_attributes>ObjectType {enum class}
 --
@@ -106,14 +105,15 @@ FONT</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>390</x>
-      <y>420</y>
-      <w>345</w>
-      <h>105</h>
+      <y>345</y>
+      <w>450</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>Util
 --
 --
-+getResource(name: string): path</panel_attributes>
++getResource(path: string, name: string): path
++collect(path: string, lambda): string</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

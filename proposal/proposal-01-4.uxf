@@ -38,7 +38,7 @@
     <coordinates>
       <x>390</x>
       <y>1005</y>
-      <w>480</w>
+      <w>585</w>
       <h>150</h>
     </coordinates>
     <panel_attributes>Actor
@@ -47,7 +47,7 @@
 +create(name: string, materialname: string): Result
 +remove(name: string): Result
 +list(output: string): Result
-+change(property: string, value:auto): Result</panel_attributes>
++change(name: string, property: string, value:auto): Result</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

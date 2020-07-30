@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>15</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>540</y>
+      <w>375</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Texture
+--
+--
++add(paths: string, count: int): Result
++add(path: string): Result
++remove(name: string): Result
++list(output: string): Result</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>705</y>
+      <w>360</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>Font
+--
+--
++add(paths: string, count: int): Result
++remove(name: string): Result
++list(output: string): Result</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>1080</y>
+      <w>480</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Actor
+--
+--
++create(name: string, materialname: string): Result
++remove(name: string): Result
++list(output: string): Result
++change(property: string, value:auto): Result</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>855</y>
+      <w>600</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>Map
+--
+--
++create(name: string): Result
++remove(name: string): Result
++list(output: string): Result
++add(mapname: string, names: string, type: ObjectType): Result
++remove(mapname: string, names: string): Result
++make(): Result</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>0</y>
+      <w>300</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>Result {enum class}
+--
+SUCCESS
+BAD_ARGUMENTS
+ALREADY_EXISTS
+DOES_NOT_EXIST
+DEPENDENT
+GENERAL</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>210</y>
+      <w>300</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>ObjectType {enum class}
+--
+ACTOR
+FONT</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>420</y>
+      <w>345</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>Util
+--
+--
++getResource(name: string): path</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

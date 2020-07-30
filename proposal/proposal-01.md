@@ -53,3 +53,11 @@ I think that the complete rewrite of the system is justified by the benefits we 
 ## Recommendations
 
 The usage of templates and macros is encouraged to further remove redundancy.
+
+## Status
+
+Status: Adopted
+
+### Implementation details
+
+![Details](proposal-01-4.png)

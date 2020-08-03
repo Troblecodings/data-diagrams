@@ -5,7 +5,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>405</x>
-      <y>480</y>
+      <y>360</y>
       <w>375</w>
       <h>135</h>
     </coordinates>
@@ -21,7 +21,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>405</x>
-      <y>630</y>
+      <y>510</y>
       <w>360</w>
       <h>135</h>
     </coordinates>
@@ -37,7 +37,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>405</x>
-      <y>1005</y>
+      <y>900</y>
       <w>585</w>
       <h>150</h>
     </coordinates>
@@ -47,16 +47,16 @@
 +create(name: string, materialname: string): Result
 +remove(name: string): Result
 +list(): string
-+change(name: string, property: string, value:auto): Result</panel_attributes>
++change(name: string, key: string, value:auto): Result</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>405</x>
-      <y>780</y>
-      <w>600</w>
-      <h>210</h>
+      <y>660</y>
+      <w>510</w>
+      <h>225</h>
     </coordinates>
     <panel_attributes>Map
 --
@@ -64,9 +64,10 @@
 +create(name: string): Result
 +remove(name: string): Result
 +list(): string
-+add(mapname: string, names: string, type: ObjectType): Result
-+remove(mapname: string, names: string): Result
-+make(): Result</panel_attributes>
++add(mapname: string, name: string): Result
++remove(mapname: string, name: string): Result
++make(): Result
++checkDependent(name: string)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -92,35 +93,22 @@ GENERAL</panel_attributes>
     <coordinates>
       <x>405</x>
       <y>210</y>
-      <w>300</w>
-      <h>120</h>
-    </coordinates>
-    <panel_attributes>ObjectType {enum class}
---
-ACTOR
-FONT</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>405</x>
-      <y>345</y>
-      <w>450</w>
-      <h>120</h>
+      <w>720</w>
+      <h>135</h>
     </coordinates>
     <panel_attributes>Util
 --
 --
-+getResource(path: string, name: string): path
-+collect(path: string, lambda): string</panel_attributes>
++getResource(path: string, name: string, extension = nullptr: string): path
++collect(path: string, lambda): string
++find(path: string, lambda) : bool</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>405</x>
-      <y>1170</y>
+      <y>1065</y>
       <w>585</w>
       <h>165</h>
     </coordinates>
@@ -128,7 +116,7 @@ FONT</panel_attributes>
 --
 --
 +add(name:string, texture:string ,color:int):Result
-+change(name:string, property:string ,value):Result
++change(name:string, key:string ,value):Result
 +list():string
 +remove(name:string):Result</panel_attributes>
     <additional_attributes/>

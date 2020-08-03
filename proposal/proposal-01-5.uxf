@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>19</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>361</x>
+      <y>437</y>
+      <w>475</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>Shader
+--
+--
++add(name: string): Result
++remove(name: string): Result
++compile(name: string): Result
++list(): string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>361</x>
+      <y>152</y>
+      <w>380</w>
+      <h>247</h>
+    </coordinates>
+    <panel_attributes>Result {enum class}
+--
+SUCCESS
+BAD_ARGUMENTS
+ALREADY_EXISTS
+DOES_NOT_EXIST
+DEPENDENT
+GENERAL</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

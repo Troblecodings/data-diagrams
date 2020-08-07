@@ -4,36 +4,31 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>361</x>
-      <y>437</y>
-      <w>475</w>
-      <h>209</h>
+      <x>399</x>
+      <y>513</y>
+      <w>589</w>
+      <h>228</h>
     </coordinates>
     <panel_attributes>Shader
 --
 --
-+add(name: string): Result
++add(name: string, type: ShaderType): Result
 +remove(name: string): Result
 +compile(name: string): Result
-+list(): string</panel_attributes>
++list(): string
+-getStageName(type: ShaderType): string&amp;</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLClass</id>
+    <id>UMLNote</id>
     <coordinates>
-      <x>361</x>
-      <y>152</y>
-      <w>380</w>
-      <h>247</h>
+      <x>399</x>
+      <y>285</y>
+      <w>456</w>
+      <h>133</h>
     </coordinates>
-    <panel_attributes>Result {enum class}
---
-SUCCESS
-BAD_ARGUMENTS
-ALREADY_EXISTS
-DOES_NOT_EXIST
-DEPENDENT
-GENERAL</panel_attributes>
+    <panel_attributes>Result: defined in Util
+</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

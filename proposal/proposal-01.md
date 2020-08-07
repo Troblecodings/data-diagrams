@@ -66,5 +66,8 @@ Status: Adopted
 
 The next stage is to clean up and add all the dependency checks.
 Afterwards we have to face the shader module implementation, stated as following.
+Implementing the map baking. Updatet implementation references for tgr. Implement name checks.
+
+For the shader interface I would preferably use the SPIV library.
 
 ![Details](proposal-01-5.png)

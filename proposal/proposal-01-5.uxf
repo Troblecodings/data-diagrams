@@ -1,34 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="14.3.0">
-  <zoom_level>19</zoom_level>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>399</x>
-      <y>513</y>
-      <w>589</w>
-      <h>228</h>
-    </coordinates>
-    <panel_attributes>Shader
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>470</x><y>400</y><w>280</w><h>100</h></coordinates><panel_attributes>Shader
 --
 --
 +add(name: string, type: ShaderType): Result
 +remove(name: string): Result
 +compile(name: string): Result
-+list(): string
--getStageName(type: ShaderType): string&amp;</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLNote</id>
-    <coordinates>
-      <x>399</x>
-      <y>285</y>
-      <w>456</w>
-      <h>133</h>
-    </coordinates>
-    <panel_attributes>Result: defined in Util
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-</diagram>
++list(): string</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>470</x><y>280</y><w>240</w><h>70</h></coordinates><panel_attributes>Result: defined in Util
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>

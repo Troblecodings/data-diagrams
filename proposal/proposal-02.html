@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Proposal 02.1 - Rework of the UI System</title>
+        <style>
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        
+        
+        
+    </head>
+    <body class="vscode-light">
+        <h1 id="proposal-021---rework-of-the-ui-system">Proposal 02.1 - Rework of the UI System</h1>
+<p><a href="https://troblecodings.github.io/data-diagrams/criticality-level.html">Criticality-Level: Level 1</a></p>
+<h2 id="current-situation">Current situation</h2>
+<h2 id="problem">Problem</h2>
+<p>The current UISystem is inflexible and pretty much unusable as it only contains 2 methods that are impractical. It is missing dynamik layouting.</p>
+<h2 id="solution">Solution</h2>
+<p>The solution would be to rework the entire system to add a layer of abstraction for the user to make it more developer friendly. However this should only be a wrapper and under the hood contain data oriented design.</p>
+<h3 id="proposal">Proposal</h3>
+<p>We would need a standard ECS for the public API. The backend API should be data oriented as possible.</p>
+<p><img src="proposal-02-1.png" alt="proposal-02-1"></p>
+<h2 id="pros-and-cons">Pros and Cons</h2>
+<h3 id="pros">Pros</h3>
+<ul>
+<li>Own shader pipes</li>
+<li>Expendability</li>
+<li>Dynamic layouts</li>
+</ul>
+<h3 id="cons">Cons</h3>
+<ul>
+<li>it is probably a bit slower</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>It is justified to write this system.</p>
+<h2 id="recommendations">Recommendations</h2>
+<p>The usage of templates and macros as well as a ECS is encouraged to further remove redundancy.</p>
+<h2 id="status">Status</h2>
+<p>Status: RFC</p>
+<h3 id="implementation-details">Implementation details</h3>
+
+    </body>
+    </html>

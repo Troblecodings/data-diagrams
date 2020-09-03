@@ -1,21 +1,22 @@
-<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>530</x><y>20</y><w>150</w><h>80</h></coordinates><panel_attributes>TextureSections
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>480</x><y>120</y><w>150</w><h>80</h></coordinates><panel_attributes>TextureSections
 --
 count
 pngData
-reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>90</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>530</x><y>470</y><w>150</w><h>80</h></coordinates><panel_attributes>MaterialSections
+reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>190</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>700</y><w>150</w><h>80</h></coordinates><panel_attributes>MaterialSections
 --
 count
 Material[]
-reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>670</x><y>510</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>750</x><y>470</y><w>150</w><h>80</h></coordinates><panel_attributes>Material
+reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>740</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>700</y><w>150</w><h>90</h></coordinates><panel_attributes>Material
 --
 size
 textureid
-color</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>530</x><y>630</y><w>150</w><h>90</h></coordinates><panel_attributes>ActorSections
+color
+pipeid</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>860</y><w>150</w><h>90</h></coordinates><panel_attributes>ActorSections
 --
 count
 Actor[]
 totalInstanceSize
-reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>540</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>670</x><y>670</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>750</x><y>580</y><w>150</w><h>210</h></coordinates><panel_attributes>Actor
+reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>770</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>900</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>810</y><w>150</w><h>210</h></coordinates><panel_attributes>Actor
 --
 vertexsize
 matrix[16]
@@ -29,32 +30,50 @@ indexDrawCount
 vertexCount
 indexData[indexDrawCount]
 vertexData[vertexsize]
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>530</x><y>300</y><w>150</w><h>80</h></coordinates><panel_attributes>ShaderSection
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>400</y><w>150</w><h>80</h></coordinates><panel_attributes>ShaderSection
 --
 count
-Shader[]
-reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>450</y><w>50</w><h>460</h></coordinates><panel_attributes>lt=-
-Old</panel_attributes><additional_attributes>10;440;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>530</x><y>160</y><w>150</w><h>80</h></coordinates><panel_attributes>PipeSection
+Shader[count]
+reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>680</y><w>50</w><h>460</h></coordinates><panel_attributes>lt=-
+Old</panel_attributes><additional_attributes>10;440;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>530</y><w>150</w><h>80</h></coordinates><panel_attributes>PipeSection
 --
 count
 Pipe
-reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>230</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>0</y><w>50</w><h>130</h></coordinates><panel_attributes>lt=-
-Old</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>140</y><w>50</w><h>290</h></coordinates><panel_attributes>lt=-
-New</panel_attributes><additional_attributes>10;270;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>370</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>750</x><y>310</y><w>150</w><h>80</h></coordinates><panel_attributes>Shader
+reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>600</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>100</y><w>50</w><h>130</h></coordinates><panel_attributes>lt=-
+Old</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>230</y><w>50</w><h>430</h></coordinates><panel_attributes>lt=-
+New</panel_attributes><additional_attributes>10;410;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>470</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>390</y><w>150</w><h>110</h></coordinates><panel_attributes>Shader
 --
 shadersize
 shadertype
-shaderdata[shadersize]</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>670</x><y>340</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>530</x><y>790</y><w>150</w><h>80</h></coordinates><panel_attributes>InstanceSections
+layoutCount
+layouts[layoutCount]
+shaderdata[shadersize]</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>440</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>1020</y><w>150</w><h>80</h></coordinates><panel_attributes>InstanceSections [opt]
 --
 totalInstanceSize
 totalInstanceData
-reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>710</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>860</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>530</x><y>940</y><w>150</w><h>80</h></coordinates><panel_attributes>FontSections
+reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>940</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>1090</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>1170</y><w>150</w><h>80</h></coordinates><panel_attributes>FontSections [opt]
 --
 count
 Font[]
-reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>670</x><y>970</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>920</y><w>70</w><h>140</h></coordinates><panel_attributes>lt=-
-Partital</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>750</x><y>940</y><w>150</w><h>80</h></coordinates><panel_attributes>Font
+reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>1200</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>1150</y><w>70</w><h>140</h></coordinates><panel_attributes>lt=-
+Partital</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>1170</y><w>150</w><h>80</h></coordinates><panel_attributes>Font
 --
 materialid
 fontdatasize
-fontdata[fontdatasize]</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+fontdata[fontdatasize]</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>560</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>530</y><w>200</w><h>110</h></coordinates><panel_attributes>Pipe
+--
+shaderid
+cullMode
+polygonMode
+inputBindingCount
+inputBindings[inputBindingCount]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>260</y><w>150</w><h>80</h></coordinates><panel_attributes>SamplerSection
+--
+count
+Sampler[count]
+reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>330</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>260</y><w>150</w><h>110</h></coordinates><panel_attributes>Sampler
+--
+shadersize
+shadertype
+layoutCount
+layouts[layoutCount]
+shaderdata[shadersize]</panel_attributes><additional_attributes></additional_attributes></element></diagram>

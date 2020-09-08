@@ -24,7 +24,15 @@ The introduction of a shader and a pipeline section in order after texture loadi
 
 ### Pros
 
+* More dynamic creation of pipelines and so on
+* More options for artists
+* Remove build dependencies
+* Surrounding buffer creation can be automated
+
 ### Cons
+
+* Requires a lot of new modules to be rewritten from hard coded to dynamic
+* Makes reading and writing more work
 
 ## Conclusion
 

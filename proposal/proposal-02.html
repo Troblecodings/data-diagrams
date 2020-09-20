@@ -2,7 +2,7 @@
     <html>
     <head>
         <meta charset="UTF-8">
-        <title>Proposal 02.1 - Rework of the UI System</title>
+        <title>Proposal 02.2 - Rework of the UI System</title>
         <style>
 </style>
         
@@ -23,15 +23,15 @@
         
     </head>
     <body class="vscode-light">
-        <h1 id="proposal-021---rework-of-the-ui-system">Proposal 02.1 - Rework of the UI System</h1>
-<p><a href="https://troblecodings.github.io/data-diagrams/criticality-level.html">Criticality-Level: Level 1</a></p>
+        <h1 id="proposal-022---rework-of-the-ui-system">Proposal 02.2 - Rework of the UI System</h1>
+<p><a href="https://troblecodings.github.io/data-diagrams/criticality-level.html">Criticality-Level: Level 2</a></p>
 <h2 id="current-situation">Current situation</h2>
 <h2 id="problem">Problem</h2>
-<p>The current UISystem is inflexible and pretty much unusable as it only contains 2 methods that are impractical. It is missing dynamik layouting.</p>
+<p>The current UISystem is inflexible and pretty much unusable as it only contains 2 methods that are impractical. It is missing dynamik layouting or hierarchies.</p>
 <h2 id="solution">Solution</h2>
 <p>The solution would be to rework the entire system to add a layer of abstraction for the user to make it more developer friendly. However this should only be a wrapper and under the hood contain data oriented design.</p>
-<h3 id="proposal">Proposal</h3>
-<p>We would need a standard ECS for the public API. The backend API should be data oriented as possible.</p>
+<h2 id="proposal">Proposal</h2>
+<p>The herby proposed Entity-Component-System (ECS) will have a Entity represented through <code>Actor</code> and components represented through the <code>ComponentInfo</code>. Every actor has all positional data as it is needed none the less. These are updatet and computed through the update function. The function is an event based trigger hence it should updatet after all changes to a Entity or Component are done or if external changes are made (e.g. Resolution change). The components will consist of a enum type which tells the type of component (e.g. <code>TextureComponent</code>) and the component in form of a union. A general storage is being allocated in vector on addition. A components or an acton can only have one parent respectively. Components will also have a update function which can updatet itself or the parent. Components are updatet before the children are.</p>
 <p><img src="proposal-02-1.png" alt="proposal-02-1"></p>
 <h2 id="pros-and-cons">Pros and Cons</h2>
 <h3 id="pros">Pros</h3>
@@ -43,9 +43,10 @@
 <h3 id="cons">Cons</h3>
 <ul>
 <li>it is probably a bit slower</li>
+<li>Requires manual memory management</li>
 </ul>
 <h2 id="conclusion">Conclusion</h2>
-<p>It is justified to write this system.</p>
+<p>It is justified to write this system. Better then nothing I guess.</p>
 <h2 id="recommendations">Recommendations</h2>
 <p>The usage of templates and macros as well as a ECS is encouraged to further remove redundancy.</p>
 <h2 id="status">Status</h2>

@@ -2,7 +2,7 @@
     <html>
     <head>
         <meta charset="UTF-8">
-        <title>Proposal 03.1 - Shader IO generation and package reading changes</title>
+        <title>Proposal 03.2 - Shader IO generation and package reading changes</title>
         <style>
 </style>
         
@@ -22,8 +22,8 @@
         
         
     </head>
-    <body class="vscode-light">
-        <h1 id="proposal-031---shader-io-generation-and-package-reading-changes">Proposal 03.1 - Shader IO generation and package reading changes</h1>
+    <body>
+        <h1 id="proposal-032---shader-io-generation-and-package-reading-changes">Proposal 03.2 - Shader IO generation and package reading changes</h1>
 <p><a href="https://troblecodings.github.io/data-diagrams/criticality-level.html">Criticality-Level: Level 2</a></p>
 <h2 id="current-situation">Current situation</h2>
 <p>Currently all shaders have to be written manuel. They are not being included within the packaging of the game nor are there pipe being generated automatically. All surrounding resources such as per index buffer and push const memory are hard coded and not dynamic.</p>
@@ -32,8 +32,8 @@
 <h2 id="solution">Solution</h2>
 <p>The solution would be to introduce two new sections in the package loading system. The first one would include shaders, the second would include the pipe information. This would enable us to dynamically create pipelines and shaders for each material. Furthermore this should be tied to the material which then contains the pipeline which this material uses to render. If no pipeline should be given to the material a default pipeline will be used.</p>
 <h3 id="proposal">Proposal</h3>
-<p>The introduction of a shader and a pipeline section in order after texture loading.</p>
-<p><img src="proposal-03-1.png" alt="proposal-03-1.png"></p>
+<p>The introduction of a shader and a pipeline section in order after texture loading. There should be default shader written into the tool system which can then be used as template. Those will be written to the shader system. Therefore shader creation should include a template string which whom the template can be identified. If none is given a default template should be used. Every shader needs to have input bindings. Furthermore the Input bindings should be derived from the Buffer Sections. Hence a buffer section needs to be introduced. The buffer section consists of the buffer type as well as the size of the buffer and it's content.</p>
+<p><img src="file:///c:\Users\MrTroble\Desktop\data-diagrams\proposal\proposal-03-1.png" alt="proposal-03-1.png"></p>
 <h2 id="pros-and-cons">Pros and Cons</h2>
 <h3 id="pros">Pros</h3>
 <ul>
@@ -45,7 +45,7 @@
 <h3 id="cons">Cons</h3>
 <ul>
 <li>Requires a lot of new modules to be rewritten from hard coded to dynamic</li>
-<li>Makes reading and writing more work</li>
+<li>More work while reading and writing</li>
 </ul>
 <h2 id="conclusion">Conclusion</h2>
 <h2 id="recommendations">Recommendations</h2>

@@ -1,24 +1,124 @@
-<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>480</x><y>20</y><w>150</w><h>80</h></coordinates><panel_attributes>TextureSections
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <help_text>Space for diagram notes</help_text>
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>473</x>
+      <y>33</y>
+      <w>165</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>TextureSections
 --
 count
 pngData
-reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>90</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>600</y><w>150</w><h>80</h></coordinates><panel_attributes>MaterialSections
+reserved = 0xFFFFFFFF</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>539</x>
+      <y>110</y>
+      <w>33</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>473</x>
+      <y>792</y>
+      <w>165</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>MaterialSections
 --
 count
 Material[]
-reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>640</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>590</y><w>150</w><h>100</h></coordinates><panel_attributes>Material
+reserved = 0xFFFFFFFF</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>627</x>
+      <y>836</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>715</x>
+      <y>781</y>
+      <w>165</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Material
 --
 size
 textureid
 color
 pipeid
 samplerid
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>760</y><w>150</w><h>90</h></coordinates><panel_attributes>ActorSections
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>473</x>
+      <y>968</y>
+      <w>165</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>ActorSections
 --
 count
 Actor[]
 totalInstanceSize
-reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>670</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>800</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>710</y><w>150</w><h>210</h></coordinates><panel_attributes>Actor
+reserved = 0xFFFFFFFF</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>539</x>
+      <y>869</y>
+      <w>33</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>627</x>
+      <y>1012</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>715</x>
+      <y>913</y>
+      <w>165</w>
+      <h>231</h>
+    </coordinates>
+    <panel_attributes>Actor
 --
 vertexsize
 matrix[16]
@@ -32,51 +132,349 @@ indexDrawCount
 vertexCount
 indexData[indexDrawCount]
 vertexData[vertexsize]
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>300</y><w>150</w><h>80</h></coordinates><panel_attributes>ShaderSection
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>473</x>
+      <y>462</y>
+      <w>165</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>ShaderSection
 --
 count
 Shader[count]
-reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>580</y><w>50</w><h>460</h></coordinates><panel_attributes>lt=-
-Old</panel_attributes><additional_attributes>10;440;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>430</y><w>150</w><h>80</h></coordinates><panel_attributes>PipeSection
+reserved = 0xFFFFFFFF</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>385</x>
+      <y>770</y>
+      <w>55</w>
+      <h>506</h>
+    </coordinates>
+    <panel_attributes>lt=-
+Old</panel_attributes>
+    <additional_attributes>10.0;440.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>473</x>
+      <y>605</y>
+      <w>165</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>PipeSection
 --
 count
 Pipe
-reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>500</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>0</y><w>50</w><h>130</h></coordinates><panel_attributes>lt=-
-Old</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>130</y><w>50</w><h>430</h></coordinates><panel_attributes>lt=-
-New</panel_attributes><additional_attributes>10;410;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>370</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>290</y><w>150</w><h>110</h></coordinates><panel_attributes>Shader
+reserved = 0xFFFFFFFF</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>539</x>
+      <y>682</y>
+      <w>33</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>385</x>
+      <y>11</y>
+      <w>55</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>lt=-
+Old</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>385</x>
+      <y>154</y>
+      <w>66</w>
+      <h>594</h>
+    </coordinates>
+    <panel_attributes>lt=-
+New</panel_attributes>
+    <additional_attributes>10.0;520.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>539</x>
+      <y>539</y>
+      <w>33</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>715</x>
+      <y>451</y>
+      <w>165</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>Shader
 --
 shadersize
 shadertype
 layoutCount
 layouts[layoutCount]
-shaderdata[shadersize]</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>340</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>920</y><w>150</w><h>80</h></coordinates><panel_attributes>InstanceSections [opt]
+shaderdata[shadersize]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>627</x>
+      <y>506</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>473</x>
+      <y>1144</y>
+      <w>165</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>InstanceSections [opt]
 --
 totalInstanceSize
 totalInstanceData
-reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>840</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>990</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>1070</y><w>150</w><h>80</h></coordinates><panel_attributes>FontSections [opt]
+reserved = 0xFFFFFFFF</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>539</x>
+      <y>1056</y>
+      <w>33</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>539</x>
+      <y>1221</y>
+      <w>33</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>473</x>
+      <y>1309</y>
+      <w>165</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>FontSections [opt]
 --
 count
 Font[]
-reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>1100</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>1050</y><w>70</w><h>140</h></coordinates><panel_attributes>lt=-
-Partital</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>1070</y><w>150</w><h>90</h></coordinates><panel_attributes>Font
+reserved = 0xFFFFFFFF</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>627</x>
+      <y>1342</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>385</x>
+      <y>1287</y>
+      <w>77</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>lt=-
+Partital</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>715</x>
+      <y>1309</y>
+      <w>165</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>Font
 --
 materialid
 fontoffset
 fontdatasize
-fontdata[fontdatasize]</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>460</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>430</y><w>200</w><h>110</h></coordinates><panel_attributes>Pipe
+fontdata[fontdatasize]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>627</x>
+      <y>638</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>715</x>
+      <y>605</y>
+      <w>220</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>Pipe
 --
 shaderid
 cullMode
 polygonMode
 inputBindingCount
-inputBindings[inputBindingCount]</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>160</y><w>150</w><h>80</h></coordinates><panel_attributes>SamplerSection
+inputBindings[inputBindingCount]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>473</x>
+      <y>308</y>
+      <w>165</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>SamplerSection
 --
 count
 Sampler[count]
-reserved = 0xFFFFFFFF</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>230</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>160</y><w>150</w><h>90</h></coordinates><panel_attributes>Sampler
+reserved = 0xFFFFFFFF</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>539</x>
+      <y>385</y>
+      <w>33</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>715</x>
+      <y>308</y>
+      <w>165</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>Sampler
 --
 uSamplerMode
 vSamplerMode
 filterMagnification
 filterMignification
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>180</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element></diagram>
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>627</x>
+      <y>330</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>473</x>
+      <y>176</y>
+      <w>165</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>BufferSection
+--
+count
+Buffer[count]
+reserved = 0xFFFFFFFF</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>627</x>
+      <y>209</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>715</x>
+      <y>165</y>
+      <w>165</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Buffer
+--
+BufferType
+size
+containsdata
+data[size]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>539</x>
+      <y>253</y>
+      <w>33</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

@@ -1,4 +1,4 @@
-# Proposal 03.1 - Shader IO generation and package reading changes
+# Proposal 03.2 - Shader IO generation and package reading changes
 
 [Criticality-Level: Level 2](https://troblecodings.github.io/data-diagrams/criticality-level.html)
 
@@ -16,7 +16,7 @@ The solution would be to introduce two new sections in the package loading syste
 
 ### Proposal
 
-The introduction of a shader and a pipeline section in order after texture loading.
+The introduction of a shader and a pipeline section in order after texture loading. There should be default shader written into the tool system which can then be used as template. Those will be written to the shader system. Therefore shader creation should include a template string which whom the template can be identified. If none is given a default template should be used. Every shader needs to have input bindings. Furthermore the Input bindings should be derived from the Buffer Sections. Hence a buffer section needs to be introduced. The buffer section consists of the buffer type as well as the size of the buffer and it's content.
 
 ![proposal-03-1.png](proposal-03-1.png)
 
@@ -32,7 +32,7 @@ The introduction of a shader and a pipeline section in order after texture loadi
 ### Cons
 
 * Requires a lot of new modules to be rewritten from hard coded to dynamic
-* Makes reading and writing more work
+* More work while reading and writing
 
 ## Conclusion
 

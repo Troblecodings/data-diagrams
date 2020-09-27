@@ -1,64 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="14.3.0">
-  <zoom_level>15</zoom_level>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>405</x>
-      <y>360</y>
-      <w>375</w>
-      <h>135</h>
-    </coordinates>
-    <panel_attributes>Texture
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>0</x><y>240</y><w>250</w><h>90</h></coordinates><panel_attributes>Texture
 --
 --
 +add(path: string): Result
 +remove(name: string): Result
-+list(): string</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>405</x>
-      <y>510</y>
-      <w>360</w>
-      <h>135</h>
-    </coordinates>
-    <panel_attributes>Font
++list(): string</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>340</y><w>240</w><h>90</h></coordinates><panel_attributes>Font
 --
 --
 +add(path: string): Result
 +remove(name: string): Result
-+list(): string</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>405</x>
-      <y>900</y>
-      <w>585</w>
-      <h>150</h>
-    </coordinates>
-    <panel_attributes>Actor
++list(): string</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>600</y><w>390</w><h>100</h></coordinates><panel_attributes>Actor
 --
 --
 +create(name: string, materialname: string): Result
 +remove(name: string): Result
 +list(): string
-+change(name: string, key: string, value:auto): Result</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>405</x>
-      <y>660</y>
-      <w>510</w>
-      <h>225</h>
-    </coordinates>
-    <panel_attributes>Map
++change(name: string, key: string, value:auto): Result</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>440</y><w>340</w><h>150</h></coordinates><panel_attributes>Map
 --
 --
 +create(name: string): Result
@@ -67,58 +23,33 @@
 +add(mapname: string, name: string): Result
 +remove(mapname: string, name: string): Result
 +make(): Result
-+checkDependent(name: string)</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>405</x>
-      <y>0</y>
-      <w>300</w>
-      <h>195</h>
-    </coordinates>
-    <panel_attributes>Result {enum class}
++checkDependent(name: string)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>0</y><w>200</w><h>130</h></coordinates><panel_attributes>Result {enum class}
 --
 SUCCESS
 BAD_ARGUMENTS
 ALREADY_EXISTS
 DOES_NOT_EXIST
 DEPENDENT
-GENERAL</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>405</x>
-      <y>210</y>
-      <w>720</w>
-      <h>135</h>
-    </coordinates>
-    <panel_attributes>Util
+GENERAL</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>140</y><w>480</w><h>90</h></coordinates><panel_attributes>Util
 --
 --
 +getResource(path: string, name: string, extension = nullptr: string): path
 +collect(path: string, lambda): string
-+find(path: string, lambda) : bool</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>405</x>
-      <y>1065</y>
-      <w>585</w>
-      <h>165</h>
-    </coordinates>
-    <panel_attributes>Material
++find(path: string, lambda) : bool</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>710</y><w>390</w><h>110</h></coordinates><panel_attributes>Material
 --
 --
 +add(name:string, texture:string ,color:int):Result
 +change(name:string, key:string ,value):Result
 +list():string
-+remove(name:string):Result</panel_attributes>
-    <additional_attributes/>
-  </element>
-</diagram>
++remove(name:string):Result</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>240</y><w>340</w><h>200</h></coordinates><panel_attributes>Pipe
+--
+--
++create(name: string): Result
++remove(name: string): Result
++list(): string
++addShader(pipename: string, name: string): Result
++removeShader(pipename: string, name: string): Result
++compile(): Result
++checkDependent(name: string)
++change(name:string, key:string ,value):Result
++addInputBinding(pipename: string, )</panel_attributes><additional_attributes></additional_attributes></element></diagram>

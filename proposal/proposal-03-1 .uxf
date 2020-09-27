@@ -358,12 +358,13 @@ fontdata[fontdatasize]</panel_attributes>
     <coordinates>
       <x>715</x>
       <y>605</y>
-      <w>220</w>
-      <h>121</h>
+      <w>286</w>
+      <h>143</h>
     </coordinates>
     <panel_attributes>Pipe
 --
-shaderid
+ids
+shaderids[ids]
 cullMode
 polygonMode
 inputBindingCount
